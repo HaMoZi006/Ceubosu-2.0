@@ -1,0 +1,27 @@
+
+header{
+    margin-top: 5px;
+    margin-bottom: 10vh;
+    display: flex;
+    background-color: rgb(136, 94, 179);
+    padding-inline: 16px;
+    padding-block: 8px;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    button:hover{
+    cursor: pointer;
+    opacity:70%;
+    background-color: rgb(179, 109, 200);
+    }
+    img{
+        height: 100px;
+        width: 225px;
+        cursor: pointer;
+    }
+    button{
+        margin:1px;
+        border-radius: 5px;
+    }
+}

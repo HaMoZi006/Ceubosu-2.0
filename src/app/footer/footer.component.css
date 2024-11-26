@@ -1,0 +1,13 @@
+footer{
+    background-color: rgb(40, 24, 54);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 25vh;
+
+
+}

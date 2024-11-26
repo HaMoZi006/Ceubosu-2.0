@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(19, 2, 24);
+}
+
+
+
+
+div{
+    border-radius: 10px;
+    margin: auto;
+    align-items: top;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    width: 775px;
+    height: 400px;
+    background-color: rgb(153, 0, 153);
+
+
+    p{
+    font-size: 20px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    button{
+        margin: 10px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+
+
+    button:hover{
+    cursor: not-allowed;
+    opacity:70%;
+    background-color: rgb(143, 189, 235);
+    }
+
+
+    iframe{
+        height: 300px;
+        width: 750px;
+        margin: 10px;
+        align-items: center;
+        display: flex;
+    }
+}

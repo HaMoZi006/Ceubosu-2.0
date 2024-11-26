@@ -1,0 +1,79 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+span{
+  color:white;
+}
+.forum {
+  max-width: 800px;
+  margin: 20px auto;
+  background:rgb(153, 0, 153);;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.posts {
+  list-style: none;
+  padding: 0;
+}
+
+.post {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post h4 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.post p {
+  margin: 0 0 15px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.like-button,
+.dislike-button {
+  background-color: #4693d3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor:not-allowed;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+}
+
+.like-button:hover {
+  background-color: #3d7bb8;
+}
+
+.dislike-button {
+  background-color: #d9534f;
+}
+
+.dislike-button:hover {
+  background-color: #c9302c;
+}
+
+.like-count,
+.dislike-count {
+  font-size: 14px;
+  color: #ffffff;
+}
